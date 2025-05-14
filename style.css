@@ -7,15 +7,12 @@ body {
 .main-title {
   position: absolute;
   top: 30%;
-  left: 50%;
-  transform: translate(-50%, 0); /* 向左偏移自身宽度一半，使左对齐变为居中 */
+  left: 20%;
   font-size: 2rem;
   font-weight: bold;
   color: #2c3e50;
   font-family: 'Arial', sans-serif;
 }
-
-
 
 button {
   padding: 10px 20px;
