@@ -35,12 +35,6 @@ body {
   margin-bottom: 10px;
 }
 
-.main-title p {
-  font-size: 1.2rem;
-  color: #555;
-  margin-bottom: 20px;
-}
-
 .main-title input {
   padding: 10px 20px;
   font-size: 1rem;
@@ -48,4 +42,32 @@ body {
   max-width: 400px;
   border: 1px solid #ccc;
   border-radius: 4px;
+}
+
+.hero-section {
+  background-image: url("images/background.jpg"); /* 图片路径 */
+  background-size: cover;
+  background-position: center;
+  height: 100vh; /* 或具体高度 */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.overlay {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.8); /* 半透明背景 */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+input {
+  padding: 10px;
+  width: 300px;
+  margin: 10px;
+}
+
+button {
+  padding: 10px 20px;
 }
