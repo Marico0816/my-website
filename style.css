@@ -45,22 +45,27 @@ body {
 }
 
 .hero-section {
-  background-image: url("images/background.jpg"); /* 图片路径 */
-  background-size: contain;
-  background-position: center;
-  height: 100vh; /* 或具体高度 */
+  width: 100%;
+  height: 500px; /* 你想要的图高度 */
   display: flex;
-  align-items: center;
   justify-content: center;
-  position: relative;
+  align-items: center;
+  background-image: url("images/background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain; /* 显示完整背景图 */
+  background-color: #f2f2f2; /* 两侧留白颜色 */
 }
 
+
 .overlay {
+  background: rgba(255, 255, 255, 0.85);
+  padding: 30px;
+  border-radius: 8px;
   text-align: center;
-  background: rgba(255, 255, 255, 0.8); /* 半透明背景 */
-  padding: 20px;
-  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
+
 
 input {
   padding: 10px;
