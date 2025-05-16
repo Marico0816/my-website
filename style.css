@@ -52,14 +52,15 @@ body {
 }
 
 .hero-section {
+  margin-top: -50px; /* 向上移动 50 像素 */
   width: 80%;              /* 控制红色区域宽度 */
   max-width: 1200px;       /* 最大宽度 */
-  height: 400px;           /* 高度 */
+  height: 600px;           /* 高度 */
   background-image: url("images/background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  border: 2px solid red;   /* ✅ 测试红框，调试对齐，调完可删 */
+  border: 2px solid rgb(255, 0, 0);   /* ✅ 测试红框，调试对齐，调完可删 */
   display: flex;
   justify-content: center;
   align-items: center;
