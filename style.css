@@ -83,7 +83,7 @@ input {
 
 
 .search-item label {
-  height: 20px; /* 可调试尝试 20-24px，看哪个最匹配 */
+  height: 40px; /* 可调试尝试 20-24px，看哪个最匹配 */
   display: flex;
   align-items: center; /* 垂直居中 */
   justify-content: center;
