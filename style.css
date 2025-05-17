@@ -67,6 +67,14 @@ input {
   width: 100%;
 }
 
+.search-item select {
+  appearance: none;
+  -webkit-appearance: none;
+  height: 40px;
+  line-height: 40px;
+  padding: 8px;
+}
+
 .search-item {
   display: flex;
   flex-direction: column;
