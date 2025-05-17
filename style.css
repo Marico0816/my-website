@@ -70,18 +70,23 @@ input {
 .search-item {
   display: flex;
   flex-direction: column;
-  flex: 1;
-  min-width: 160px;
-  max-width: 220px;
+  justify-content: center;
+  align-items: center;     /* ✅ 水平居中对齐 label 与控件 */
+  font-size: 14px;
+  width: 180px;             /* ✅ 固定宽度让它们排齐 */
+  box-sizing: border-box;
 }
+
 
 .search-item input,
 .search-item select {
-  width: 50px;
+  width: 120px;
   padding: 8px;
   font-size: 15px;
   border: 1px solid #ccc;
   border-radius: 6px;
+  text-align: center;
+  box-sizing: border-box; /* ✅ 避免内边距撑开宽度 */
 }
 
 
