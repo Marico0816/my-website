@@ -77,6 +77,7 @@ input {
 
 .search-item input,
 .search-item select {
+  width: 50px;
   padding: 8px;
   font-size: 15px;
   border: 1px solid #ccc;
