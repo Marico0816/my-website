@@ -80,7 +80,8 @@ input {
 
 .search-item input,
 .search-item select {
-  width: 120px;
+  height: 40px;
+  width: 150px;
   padding: 8px;
   font-size: 15px;
   border: 1px solid #ccc;
