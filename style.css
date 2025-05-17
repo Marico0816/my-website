@@ -73,16 +73,16 @@ input {
 .search-item select {
   height: 40px;
   width: 150px;
-  padding: 8px;
+  padding: 0 8px;             /* 横向内边距 */
   font-size: 15px;
-  line-height: 1.2;
+  line-height: 40px;          /* ⬅️ 关键：让文字垂直居中对齐 input */
   border: 1px solid #ccc;
   border-radius: 6px;
   text-align: center;
   box-sizing: border-box;
-  appearance: none;
+  appearance: none;           /* 移除默认箭头样式 */
+  background-color: white;
 }
-
 
 
 .search-item {
