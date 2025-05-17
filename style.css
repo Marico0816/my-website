@@ -82,24 +82,24 @@ input {
 }
 
 
-.search-item label {
-  height: 1000px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 14px;
-  font-weight: 500;
-  margin-bottom: 4px;
-}
-
 .search-item {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;     /* ✅ 水平居中对齐 label 与控件 */
+  justify-content: space-between;  /* 让 label 和控件自然上下分布 */
+  align-items: center;
   font-size: 14px;
-  width: 180px;             /* ✅ 固定宽度让它们排齐 */
+  width: 180px;
+  height: 80px;         /* 👈 统一高度，每个item固定占用空间 */
   box-sizing: border-box;
+}
+
+.search-item label {
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+  height: 20px;         /* 👈 可根据需求微调 */
+  line-height: 20px;
+  margin-bottom: 4px;
 }
 
 .search-button {
