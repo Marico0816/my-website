@@ -60,42 +60,50 @@ input {
   background-color: white;
   border: 1px solid #ccc;
   border-radius: 10px;
-  padding: 10px 20px;
-  gap: 12px;
+  padding: 12px 20px;
+  gap: 16px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-  max-width: 800px;
-  margin-top: 20px;
+  max-width: 900px;
+  width: 100%;
 }
 
 .search-item {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   font-size: 14px;
+  min-width: 150px;
+}
+
+.search-item label {
+  margin-bottom: 4px;
+  font-weight: 500;
+  text-align: center;
 }
 
 .search-item input,
 .search-item select {
-  border: none;
-  outline: none;
-  font-size: 16px;
-  padding: 4px 2px;
-  background: transparent;
-  min-width: 100px;
+  padding: 8px;
+  font-size: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  text-align: center;
 }
 
 .divider {
   width: 1px;
-  height: 40px;
+  height: 50px;
   background-color: #ccc;
 }
 
 .search-button {
-  margin-left: auto;
-  padding: 10px 16px;
+  padding: 10px 20px;
   background-color: #3b82f6;
   color: white;
   border: none;
   border-radius: 8px;
+  font-weight: bold;
   cursor: pointer;
+  height: 40px;
+  margin-top: 20px; /* 保证按钮不会靠上 */
 }
-
