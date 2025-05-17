@@ -1,50 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
+    <meta
+      name="google-site-verification"
+      content="1Esai1hyll_v0Kr8x-rQEagl9CWIBGYQX-IWjt7lT7c"
+    />
 
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>我的第一个网页</title>
+    <link rel="stylesheet" href="style.css" />
 
-  <meta name="google-site-verification" content="1Esai1hyll_v0Kr8x-rQEagl9CWIBGYQX-IWjt7lT7c" />
+    <!-- ✅ 添加 Cookie 合规 SDK（来自 CookieLaw.org） -->
+    <script
+      src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js"
+      type="text/javascript"
+      charset="UTF-8"
+      data-domain-script="your-domain-id-goes-here"
+    ></script>
+    <!-- ✅ 添加空的 OptanonWrapper 函数，防止报错 -->
+    <script type="text/javascript">
+      function OptanonWrapper() {}
+    </script>
+  </head>
 
-  <title>我的第一个网页</title>
-  <link rel="stylesheet" href="style.css" />
+  <body>
+    <div class="hero-wrapper">
+      <div class="hero-section">
+        <div class="login-btn">
+          <button onclick="window.location.href='login.html'">Login</button>
+        </div>
 
-  <!-- ✅ 添加 Cookie 合规 SDK（来自 CookieLaw.org） -->
-  <script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js"
-          type="text/javascript"
-          charset="UTF-8"
-          data-domain-script="your-domain-id-goes-here">
-  </script>
-  <!-- ✅ 添加空的 OptanonWrapper 函数，防止报错 -->
-  <script type="text/javascript">
-    function OptanonWrapper() {}
-  </script>
+        <div class="overlay">
+          <h1>Start looking for your house from here!</h1>
+          <div class="search-bar">
+            <div class="search-item">
+              <label>城市</label>
+              <input type="text" placeholder="请输入城市" />
+            </div>
+            <div class="divider"></div>
 
+            <div class="search-item">
+              <label>时间</label>
+              <input type="date" />
+            </div>
+            <div class="divider"></div>
 
-</head>
+            <div class="search-item">
+              <label>人数</label>
+              <select>
+                <option>1 位</option>
+                <option>2 位</option>
+                <option>3 位</option>
+                <option>4 位</option>
+              </select>
+            </div>
 
-
-<body>
-
-  <div class="hero-wrapper">
-  <div class="hero-section">
-    <div class="login-btn">
-      <button onclick="window.location.href='login.html'">Login</button>
+            <button class="search-button">搜索</button>
+          </div>
+        </div>
+      </div>
     </div>
-
-    <div class="overlay">
-      <h1>Start looking for your house from here!</h1>
-      <input type="text" placeholder="Enter address">
-      <button>Search</button>
-    </div>
-  </div>
-</div>
-
-
-
-
-</body>
+  </body>
 </html>
