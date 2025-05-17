@@ -71,7 +71,7 @@ input {
 
 .search-item input,
 .search-item select {
-  height: 40px;
+  height: 0px;
   width: 150px;
   padding: 0 8px;             /* 横向内边距 */
   font-size: 15px;
