@@ -106,7 +106,7 @@ input {
   border-radius: 8px;
   font-weight: bold;
   cursor: pointer;
-  white-space: nowrap; /* 不换行 */
-  flex-shrink: 0;       /* 不压缩 */
+  height: 40px;
+  white-space: nowrap;
+  width: 100%; /* 让按钮宽度和其他输入项统一 */
 }
-
