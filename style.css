@@ -65,7 +65,9 @@ input {
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
   max-width: 900px;
   width: 100%;
+  flex-wrap: wrap;   /* ✅ 自动换行（推荐） */
 }
+
 
 .search-item {
   display: flex;
@@ -73,7 +75,9 @@ input {
   justify-content: center;
   font-size: 14px;
   min-width: 150px;
+  flex: 1;   /* ✅ 让每个搜索项平均分布空间 */
 }
+
 
 .search-item label {
   margin-bottom: 4px;
@@ -105,5 +109,5 @@ input {
   font-weight: bold;
   cursor: pointer;
   height: 40px;
-  margin-top: 20px; /* 保证按钮不会靠上 */
+  align-self: flex-end;  /* ✅ 与输入框底部对齐 */
 }

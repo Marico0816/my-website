@@ -10,12 +10,13 @@
       content="1Esai1hyll_v0Kr8x-rQEagl9CWIBGYQX-IWjt7lT7c"
     />
 
-
     <!-- Flatpickr 样式 -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css"
+    />
     <!-- Flatpickr 脚本 -->
     <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
-
 
     <title>我的第一个网页</title>
     <link rel="stylesheet" href="style.css" />
@@ -49,10 +50,19 @@
             </div>
             <div class="divider"></div>
 
+            <!-- 起始日期 -->
             <div class="search-item">
-              <label>Date of residence</label>
-              <input type="text" id="datepicker" placeholder="Select a date" />
+              <label>Start Date</label>
+              <input type="text" id="start-date" placeholder="Start date" />
             </div>
+            <div class="divider"></div>
+
+            <!-- 结束日期 -->
+            <div class="search-item">
+              <label>End Date</label>
+              <input type="text" id="end-date" placeholder="End date" />
+            </div>
+            <div class="divider"></div>
 
             <div class="divider"></div>
 
@@ -73,11 +83,15 @@
     </div>
 
     <script>
-      flatpickr("#datepicker", {
-      dateFormat: "Y-m-d", // 自定义格式
-      locale: "en"         // 强制英文界面
+      flatpickr("#start-date", {
+        dateFormat: "Y-m-d",
+        locale: "en",
+      });
+
+      flatpickr("#end-date", {
+        dateFormat: "Y-m-d",
+        locale: "en",
       });
     </script>
-
   </body>
 </html>
