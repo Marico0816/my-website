@@ -10,6 +10,13 @@
       content="1Esai1hyll_v0Kr8x-rQEagl9CWIBGYQX-IWjt7lT7c"
     />
 
+
+    <!-- Flatpickr 样式 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <!-- Flatpickr 脚本 -->
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+
+
     <title>我的第一个网页</title>
     <link rel="stylesheet" href="style.css" />
 
@@ -44,8 +51,9 @@
 
             <div class="search-item">
               <label>Date of residence</label>
-              <input type="date" />
+              <input type="text" id="datepicker" placeholder="Select a date" />
             </div>
+
             <div class="divider"></div>
 
             <div class="search-item">
@@ -63,5 +71,13 @@
         </div>
       </div>
     </div>
+
+    <script>
+      flatpickr("#datepicker", {
+      dateFormat: "Y-m-d", // 自定义格式
+      locale: "en"         // 强制英文界面
+      });
+    </script>
+
   </body>
 </html>
