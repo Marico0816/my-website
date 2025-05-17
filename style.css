@@ -108,6 +108,5 @@ input {
   cursor: pointer;
   white-space: nowrap; /* 不换行 */
   flex-shrink: 0;       /* 不压缩 */
-  align-self: flex-end;
 }
 
