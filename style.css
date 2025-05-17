@@ -75,11 +75,14 @@ input {
   width: 150px;
   padding: 8px;
   font-size: 15px;
+  line-height: 1.2;
   border: 1px solid #ccc;
   border-radius: 6px;
   text-align: center;
-  box-sizing: border-box; /* ✅ 避免内边距撑开宽度 */
+  box-sizing: border-box;
+  appearance: none;
 }
+
 
 
 .search-item {
