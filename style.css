@@ -71,17 +71,20 @@ input {
 .search-item select {
   height: 40px;
   width: 150px;
-  padding: 0 8px;             /* 横向内边距 */
+  padding: 0 8px;
   font-size: 15px;
-  line-height: 40px;          /* ⬅️ 关键：让文字垂直居中对齐 input */
+  line-height: 40px;   /* ✅ 添加这行确保 select 和 input 一致 */
   border: 1px solid #ccc;
   border-radius: 6px;
   text-align: center;
   box-sizing: border-box;
-  appearance: none;           /* 移除默认箭头样式 */
+  appearance: none;
   background-color: white;
 }
 
+.search-item select {
+  font-family: inherit;
+}
 
 .search-item {
   display: flex;
