@@ -67,12 +67,10 @@ input {
   width: 100%;
 }
 
-
-
 .search-item input,
 .search-item select {
-  height: 0px;
-  width: 0px;
+  height: 40px;
+  width: 150px;
   padding: 0 8px;             /* 横向内边距 */
   font-size: 15px;
   line-height: 40px;          /* ⬅️ 关键：让文字垂直居中对齐 input */
