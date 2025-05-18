@@ -102,7 +102,7 @@ input {
 }
 
 .search-button {
-  margin-top: -100px; /* ❗ 向上移动10px，试试看不同数值 */
+  height: 40px;
   padding: 10px 20px;
   background-color: #3b82f6;
   color: white;
@@ -110,7 +110,9 @@ input {
   border-radius: 8px;
   font-weight: bold;
   cursor: pointer;
-  height: 40px;
   white-space: nowrap;
-  width: 100%; /* 让按钮宽度和其他输入项统一 */
+
+  width: auto;             /* 不要强制 100%，按钮大小由内容决定 */
+  align-self: flex-start;  /* ⬆️ 垂直向上对齐 */
+  margin-top: -5px;        /* 可选：微调向上挤一挤 */
 }
