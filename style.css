@@ -114,5 +114,5 @@ input {
 
   width: auto;             /* 不要强制 100%，按钮大小由内容决定 */
   align-self: flex-start;  /* ⬆️ 垂直向上对齐 */
-  margin-top: 10px;        /* 可选：微调向上挤一挤 */
+  margin-top: 20px;        /* 可选：微调向上挤一挤 */
 }
