@@ -103,7 +103,7 @@ input {
 
 .search-button {
   height: 30px;
-  padding: 20px 20px;
+  padding: 10px 20px;
   background-color: #3b82f6;
   color: white;
   border: none;
@@ -114,5 +114,5 @@ input {
 
   width: auto;             /* 不要强制 100%，按钮大小由内容决定 */
   align-self: flex-start;  /* ⬆️ 垂直向上对齐 */
-  margin-top: -5px;        /* 可选：微调向上挤一挤 */
+  margin-top: 10px;        /* 可选：微调向上挤一挤 */
 }
