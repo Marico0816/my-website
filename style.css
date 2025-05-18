@@ -67,8 +67,7 @@ input {
   width: 100%;
 }
 
-.search-item input,
-.search-item select {
+.search-item input {
   height: 40px;
   width: 150px;
   padding: 0 8px;
@@ -80,10 +79,6 @@ input {
   box-sizing: border-box;
   appearance: none;
   background-color: white;
-}
-
-.search-item select {
-  font-family: inherit;
 }
 
 .search-item {
@@ -107,6 +102,7 @@ input {
 }
 
 .search-button {
+  margin-top: -10px; /* ❗ 向上移动10px，试试看不同数值 */
   padding: 10px 20px;
   background-color: #3b82f6;
   color: white;
